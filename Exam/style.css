@@ -19,7 +19,7 @@ body{
     background: #EFF0F3;
     box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
 }
-.navbar h3{
+.logo_big{
     color: #001858;
     font-size: 36px;
     font-style: normal;
@@ -27,7 +27,7 @@ body{
     line-height: normal;
     margin-left: 95px;
 }
-.navbar span{
+.logo_mini{
     width: 48px;
     height: 27px;
     color: #6246EA;
@@ -388,7 +388,97 @@ input[type="submit"]{
     border: none;
 }
 /******************************************************************************************************/
-
+footer{
+    height: 445px;
+    width: 1440px;
+    background: #E4E5E9;
+}
+.footer_container{
+    padding: 70px 0 40px 0;
+    display: flex;
+    width: 1250px;
+    margin: 0 auto;
+    gap: 160px;
+}
+.logo_footer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.logo_big_footer{
+    color: #001858;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.logo_mini_footer{
+    width: 48px;
+    height: 27px;
+    color: #6246EA;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.logo_footer p{
+    width: 284px;
+    color: #2B2C34;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.icons_footer{
+    display: flex;
+    gap: 30px;
+}
+.footer_information{
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 95px;
+}
+.footer_information div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer_information div h4{
+    margin-bottom: 5px;
+    color: #2B2C34;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.footer_information div p{
+    color: #2B2C34;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.divider{
+    width: 1250px;
+    height: 1px;
+    background: #C0C0C0;
+    margin: 0 auto;
+}
+.copyright{
+    display: flex;
+    width: 1250px;
+    margin: 0 auto;
+}
+.copyright p{
+    color: #2B2C34;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 26px 0;
+}
 
 
 
